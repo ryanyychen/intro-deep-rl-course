@@ -86,7 +86,7 @@ This command grades your solution to all problems in HW 0 and shows the results 
 
 ### Welcome
 
-After `git clone` and changing to the directory `homeworks/hw0/search-and-value-iteration`, you should be able to play a game of Pacman by typing the following at the command line:
+After `git clone` and changing to the directory `homeworks/hw0`, you should be able to play a game of Pacman by typing the following at the command line:
 ```
 python pacman.py
 ```

@@ -92,30 +92,31 @@ def depthFirstSearch(problem: SearchProblem) -> List[Directions]:
     # Initialize visited set and stack
     visited = set()
     stack = util.Stack()
-    currState = problem.getStartState()
-    visited.add(currState)
-    stack.push(currState)
+    curr_state = problem.getStartState()
+    stack.push((curr_state, None, None))
 
     # Initialize map to backtrack for path
     states_map = {}
 
     # Run DFS
     while not stack.isEmpty():
-        currState = stack.pop()
-        if problem.isGoalState(currState):
+        curr_state, prev_state, action = stack.pop()
+        if curr_state in visited:
+            continue
+        states_map[curr_state] = (prev_state, action)
+        visited.add(curr_state)
+        if problem.isGoalState(curr_state):
             break
-        successors = problem.getSuccessors(currState)
-        for successor, action, cost in successors:
-            if successor not in visited:
-                visited.add(successor)
-                stack.push(successor)
-                states_map[successor] = (currState, action)
+        next_states = problem.getSuccessors(curr_state)
+        for next_state, action, cost in next_states:
+            if next_state not in visited:
+                stack.push((next_state, curr_state, action))
     
     # Generate path using map
     path = []
-    while currState != problem.getStartState():
-        path.append(states_map[currState][1])
-        currState = states_map[currState][0]
+    while curr_state != problem.getStartState():
+        path.append(states_map[curr_state][1])
+        curr_state = states_map[curr_state][0]
     
     path.reverse()
     return path
@@ -125,30 +126,31 @@ def breadthFirstSearch(problem: SearchProblem) -> List[Directions]:
     # Initialize visited set and queue
     visited = set()
     queue = util.Queue()
-    currState = problem.getStartState()
-    visited.add(currState)
-    queue.push(currState)
+    curr_state = problem.getStartState()
+    queue.push((curr_state, None, None))
 
     # Initialize map to backtrack for path
     states_map = {}
 
-    # Run DFS
+    # Run BFS
     while not queue.isEmpty():
-        currState = queue.pop()
-        if problem.isGoalState(currState):
+        curr_state, prev_state, action = queue.pop()
+        if curr_state in visited:
+            continue
+        states_map[curr_state] = (prev_state, action)
+        visited.add(curr_state)
+        if problem.isGoalState(curr_state):
             break
-        successors = problem.getSuccessors(currState)
-        for successor, action, cost in successors:
-            if successor not in visited:
-                visited.add(successor)
-                queue.push(successor)
-                states_map[successor] = (currState, action)
+        next_states = problem.getSuccessors(curr_state)
+        for next_state, action, cost in next_states:
+            if next_state not in visited:
+                queue.push((next_state, curr_state, action))
     
     # Generate path using map
     path = []
-    while currState != problem.getStartState():
-        path.append(states_map[currState][1])
-        currState = states_map[currState][0]
+    while curr_state != problem.getStartState():
+        path.append(states_map[curr_state][1])
+        curr_state = states_map[curr_state][0]
     
     path.reverse()
     return path
@@ -158,30 +160,32 @@ def uniformCostSearch(problem: SearchProblem) -> List[Directions]:
     # Initialize visited set and priority queue
     visited = set()
     pqueue = util.PriorityQueue()
-    currState = problem.getStartState()
-    visited.add(currState)
-    pqueue.push(currState, 0)
+    curr_state = problem.getStartState()
+    pqueue.push((curr_state, None, None, 0), 0)
 
     # Initialize map to backtrack for path
     states_map = {}
 
-    # Run DFS
+    # Run UCS
     while not pqueue.isEmpty():
-        currState = pqueue.pop()
-        if problem.isGoalState(currState):
+        curr_state, prev_state, action, curr_cost = pqueue.pop()
+        if curr_state in visited:
+            continue
+        states_map[curr_state] = (prev_state, action)
+        visited.add(curr_state)
+        if problem.isGoalState(curr_state):
             break
-        successors = problem.getSuccessors(currState)
-        for successor, action, cost in successors:
-            if successor not in visited:
-                visited.add(successor)
-                pqueue.push(successor, cost)
-                states_map[successor] = (currState, action)
+        next_states = problem.getSuccessors(curr_state)
+        for next_state, action, cost in next_states:
+            if next_state not in visited:
+                total_cost = curr_cost + cost
+                pqueue.push((next_state, curr_state, action, total_cost), total_cost)
     
     # Generate path using map
     path = []
-    while currState != problem.getStartState():
-        path.append(states_map[currState][1])
-        currState = states_map[currState][0]
+    while curr_state != problem.getStartState():
+        path.append(states_map[curr_state][1])
+        curr_state = states_map[curr_state][0]
     
     path.reverse()
     return path
@@ -198,30 +202,35 @@ def aStarSearch(problem: SearchProblem, heuristic=nullHeuristic) -> List[Directi
     # Initialize visited set and priority queue
     visited = set()
     pqueue = util.PriorityQueue()
-    currState = problem.getStartState()
-    visited.add(currState)
-    pqueue.push(currState, 0 + heuristic(currState, problem))
+    curr_state = problem.getStartState()
+    pqueue.push((curr_state, None, None, 0), heuristic(curr_state, problem))
 
     # Initialize map to backtrack for path
     states_map = {}
 
-    # Run DFS
+    # Run A*
     while not pqueue.isEmpty():
-        currState = pqueue.pop()
-        if problem.isGoalState(currState):
+        curr_state, prev_state, action, curr_cost = pqueue.pop()
+        if curr_state in visited:
+            # Replace if we find a better path
+            if states_map[curr_state][2] > curr_cost:
+                states_map[curr_state] = (prev_state, action, curr_cost)
+            else:
+                continue
+        states_map[curr_state] = (prev_state, action, curr_cost)
+        visited.add(curr_state)
+        if problem.isGoalState(curr_state):
             break
-        successors = problem.getSuccessors(currState)
-        for successor, action, cost in successors:
-            if successor not in visited:
-                visited.add(successor)
-                pqueue.push(successor, cost + heuristic(successor, problem))
-                states_map[successor] = (currState, action)
+        next_states = problem.getSuccessors(curr_state)
+        for next_state, action, cost in next_states:
+            total_cost = curr_cost + cost
+            pqueue.push((next_state, curr_state, action, total_cost), total_cost + heuristic(next_state, problem))
     
     # Generate path using map
     path = []
-    while currState != problem.getStartState():
-        path.append(states_map[currState][1])
-        currState = states_map[currState][0]
+    while curr_state != problem.getStartState():
+        path.append(states_map[curr_state][1])
+        curr_state = states_map[curr_state][0]
     
     path.reverse()
     return path

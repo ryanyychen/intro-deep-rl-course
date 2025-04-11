@@ -64,7 +64,7 @@ class PacmanMDP(mdp.MarkovDecisionProcess):
         Return the start state of the MDP.
         Note: the start state does not matter in this assignment.
         """
-        util.raiseNotDefined()
+        return (0, 0)
 
     def getPossibleActions(self, state):
         """
@@ -189,8 +189,16 @@ class ValueIterationAgent(Agent):
           Run the value iteration algorithm. Note that in standard
           value iteration, V_k+1(...) depends on V_k(...)'s.
         """
-        "*** YOUR CODE HERE ***"
-        util.raiseNotDefined()
+        for _ in range(self.iterations):
+            newValues = util.Counter()
+            for state in self.mdp.getStates():
+                if self.mdp.isTerminal(state):
+                    newValues[state] = 0
+                    continue
+                newValues[state] = float('-inf')
+                for action in self.mdp.getPossibleActions(state):
+                    newValues[state] = max(newValues[state], self.computeQValueFromValues(state, action))
+            self.values = newValues
 
     def getValue(self, state):
         """
@@ -203,8 +211,12 @@ class ValueIterationAgent(Agent):
           Compute the Q-value of action in state from the
           value function stored in self.values.
         """
-        "*** YOUR CODE HERE ***"
-        util.raiseNotDefined()
+        transitions = self.mdp.getTransitionStatesAndProbs(state, action)
+        qValue = 0
+        for nextState, prob in transitions:
+            reward = self.mdp.getReward(state, action, nextState)
+            qValue += prob * (reward + self.discount * self.values[nextState])
+        return qValue
 
     def computeActionFromValues(self, state):
         """
@@ -215,8 +227,14 @@ class ValueIterationAgent(Agent):
           there are no legal actions, which is the case at the
           terminal state, you should return None.
         """
-        "*** YOUR CODE HERE ***"
-        util.raiseNotDefined()
+        bestAction = None
+        bestValue = float('-inf')
+        for action in self.mdp.getPossibleActions(state):
+            qValue = self.computeQValueFromValues(state, action)
+            if qValue > bestValue:
+                bestValue = qValue
+                bestAction = action
+        return bestAction
 
     def getPolicy(self, state):
         return self.computeActionFromValues(state)

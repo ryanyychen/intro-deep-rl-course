@@ -1,0 +1,7 @@
+position screwdriver coconut self table
+position hammer screwdriver self table
+poke coconut screwdriver hammer self table
+remove hammer screwdriver self table
+takeout screwdriver coconut self table
+position coconut glass self table
+drain coconut glass self table

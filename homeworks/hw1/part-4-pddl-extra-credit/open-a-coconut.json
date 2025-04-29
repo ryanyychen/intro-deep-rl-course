@@ -1,0 +1,938 @@
+{
+    "open-a-coconut": {
+        "problems": {
+            "drain-coconut": {
+                "part_number": "0",
+                "method_number": "1",
+                "step_number": "1-2",
+                "step_contents": " Poke a hole in the \u201ceye\u201d of the coconut with a screwdriver and a mallet. Position the pointed end of a screwdriver on one of the 3 holes or \u201ceyes\u201d at the top of the coconut. Then, use a mallet or hammer to carefully but forcefully bore a hole through an eye. Once the screwdriver gives (indicating it\u2019s bored through the shell), remove it by wiggling it out, widening the new hole in the process. Turn the coconut upside down over a glass and allow it to drain. Let the coconut sit for several minutes or until all of the liquid drains out. You may need to shake the coconut a few times to get the last bit of water out of it.",
+                "mentions": {
+                    "types": {
+                        "item": [
+                            "Poke a hole in the \u201ceye\u201d of the coconut with a screwdriver and a mallet. \\n Position the pointed end of a screwdriver on one of the 3 holes or \u201ceyes\u201d at the top of the coconut. \\n Then, use a mallet or hammer to carefully but forcefully bore a hole through an eye.  \\n Once the screwdriver gives (indicating it\u2019s bored through the shell), remove it by wiggling it out, widening the new hole in the process. \\n Turn the coconut upside down over a glass and allow it to drain. \\n Let the coconut sit for several minutes or until all of the liquid drains out. \\n You may need to shake the coconut a few times to get the last bit of water out of it.",
+                            "Poke a hole in the \u201ceye\u201d of the coconut with a screwdriver and a mallet.",
+                            "Position the pointed end of a screwdriver on one of the 3 holes or \u201ceyes\u201d at the top of the coconut.",
+                            "Then, use a mallet or hammer to carefully but forcefully bore a hole through an eye.",
+                            "Once the screwdriver gives (indicating it\u2019s bored through the shell), remove it by wiggling it out, widening the new hole in the process.",
+                            "Turn the coconut upside down over a glass and allow it to drain.",
+                            "Let the coconut sit for several minutes or until all of the liquid drains out.",
+                            "You may need to shake the coconut a few times to get the last bit of water out of it."
+                        ],
+                        "coconut": [
+                            "Poke a hole in the \u201ceye\u201d of the coconut with a screwdriver and a mallet.",
+                            "Position the pointed end of a screwdriver on one of the 3 holes or \u201ceyes\u201d at the top of the coconut.",
+                            "Then, use a mallet or hammer to carefully but forcefully bore a hole through an eye.",
+                            "Once the screwdriver gives (indicating it\u2019s bored through the shell), remove it by wiggling it out, widening the new hole in the process.",
+                            "Turn the coconut upside down over a glass and allow it to drain.",
+                            "Let the coconut sit for several minutes or until all of the liquid drains out.",
+                            "You may need to shake the coconut a few times to get the last bit of water out of it."
+                        ],
+                        "hammer": [],
+                        "screwdriver": [
+                            "Poke a hole in the \u201ceye\u201d of the coconut with a screwdriver and a mallet.",
+                            "Position the pointed end of a screwdriver on one of the 3 holes or \u201ceyes\u201d at the top of the coconut.",
+                            "Once the screwdriver gives (indicating it\u2019s bored through the shell), remove it by wiggling it out, widening the new hole in the process."
+                        ],
+                        "knife": [],
+                        "container": [
+                            "Turn the coconut upside down over a glass and allow it to drain.",
+                            "Let the coconut sit for several minutes or until all of the liquid drains out."
+                        ],
+                        "towel": [],
+                        "player": [],
+                        "location": [],
+                        "direction": []
+                    },
+                    "predicates": {
+                        "has_hole": [
+                            "Once the screwdriver gives (indicating it\u2019s bored through the shell), remove it by wiggling it out, widening the new hole in the process."
+                        ],
+                        "is_open": [],
+                        "has_water": [
+                            "Turn the coconut upside down over a glass and allow it to drain. Let the coconut sit for several minutes or until all of the liquid drains out.",
+                            "You may need to shake the coconut a few times to get the last bit of water out of it."
+                        ],
+                        "has_meat": [],
+                        "heated": [],
+                        "in": [
+                            "Then, use a mallet or hammer to carefully but forcefully bore a hole through an eye.",
+                            "Once the screwdriver gives (indicating it\u2019s bored through the shell), remove it by wiggling it out, widening the new hole in the process."
+                        ],
+                        "on": [
+                            "Position the pointed end of a screwdriver on one of the 3 holes or \u201ceyes\u201d at the top of the coconut.",
+                            "Then, use a mallet or hammer to carefully but forcefully bore a hole through an eye.",
+                            "Turn the coconut upside down over a glass and allow it to drain."
+                        ],
+                        "ontop": [
+                            "Position the pointed end of a screwdriver on one of the 3 holes or \u201ceyes\u201d at the top of the coconut.",
+                            "Then, use a mallet or hammer to carefully but forcefully bore a hole through an eye.",
+                            "Let the coconut sit for several minutes or until all of the liquid drains out."
+                        ],
+                        "pressed": [
+                            "Position the pointed end of a screwdriver on one of the 3 holes or \u201ceyes\u201d at the top of the coconut.",
+                            "Then, use a mallet or hammer to carefully but forcefully bore a hole through an eye.",
+                            "Let the coconut sit for several minutes or until all of the liquid drains out."
+                        ],
+                        "hot": [],
+                        "inventory": [],
+                        "connected": []
+                    },
+                    "actions": {
+                        "move": [],
+                        "get": [],
+                        "drop": [],
+                        "position": [
+                            "Position the pointed end of a screwdriver on one of the 3 holes or \u201ceyes\u201d at the top of the coconut.",
+                            "Then, use a mallet or hammer to carefully but forcefully bore a hole through an eye.",
+                            "Turn the coconut upside down over a glass and allow it to drain."
+                        ],
+                        "remove": [],
+                        "poke": [
+                            "Poke a hole in the \u201ceye\u201d of the coconut with a screwdriver and a mallet.",
+                            "Then, use a mallet or hammer to carefully but forcefully bore a hole through an eye."
+                        ],
+                        "takeout": [
+                            "Once the screwdriver gives (indicating it\u2019s bored through the shell), remove it by wiggling it out, widening the new hole in the process."
+                        ],
+                        "drain": [
+                            "Turn the coconut upside down over a glass and allow it to drain. Let the coconut sit for several minutes or until all of the liquid drains out.",
+                            "You may need to shake the coconut a few times to get the last bit of water out of it."
+                        ],
+                        "wrap": [],
+                        "strike": [],
+                        "smash": [],
+                        "preheat": [],
+                        "bake": [],
+                        "heat": [],
+                        "separatemeat": []
+                    }
+                }
+            },
+            "crack-coconut": {
+                "part_number": "0",
+                "method_number": "2",
+                "step_number": "All",
+                "step_contents": "Wrap the mature coconut in a kitchen towel. Place the coconut in the center of the towel, and gather the corners of the towel together to form a pouch. This will keep coconut bits from flying when you go to smash it with a hammer. Use a hammer or mallet to firmly strike all around the coconut. Place the wrapped coconut on a solid surface and hold it in place with one hand. Then, minding your fingers, strike the coconut\u2019s center with a hammer or mallet. Turn the wrapped coconut slightly, and strike the center again. Use as much force as you can safely apply, and repeat until the coconut breaks apart beneath the towel. Alternatively, strike the coconut against a concrete surface. If you don\u2019t have a hammer or mallet, you can use a solid surface like a porch or possibly a concrete countertop. Try to strike the coconut\u2019s equator against the corner of this surface, using it as a makeshift wedge. Repeatedly strike the coconut all around its equator until the coconut breaks apart. Use a knife to separate the meat from the shell. Remove the coconut pieces from the towel. Take each piece, and wedge a knife between the shell and the white meat of the coconut to carefully separate the two. Then, use the knife (or a vegetable peeler) or remove the fibrous layer that might still be clinging to the outside of the meat.",
+                "mentions": {
+                    "types": {
+                        "item": [
+                            "Wrap the mature coconut in a kitchen towel.",
+                            "Place the coconut in the center of the towel, and gather the corners of the towel together to form a pouch.",
+                            "This will keep coconut bits from flying when you go to smash it with a hammer.",
+                            "Use a hammer or mallet to firmly strike all around the coconut.",
+                            "Place the wrapped coconut on a solid surface and hold it in place with one hand.",
+                            "Then, minding your fingers, strike the coconut\u2019s center with a hammer or mallet.",
+                            "Turn the wrapped coconut slightly, and strike the center again.",
+                            "Use as much force as you can safely apply, and repeat until the coconut breaks apart beneath the towel.",
+                            "Alternatively, strike the coconut against a concrete surface.",
+                            "If you don\u2019t have a hammer or mallet, you can use a solid surface like a porch or possibly a concrete countertop.",
+                            "Try to strike the coconut\u2019s equator against the corner of this surface, using it as a makeshift wedge.",
+                            "Repeatedly strike the coconut all around its equator until the coconut breaks apart.",
+                            "Use a knife to separate the meat from the shell. Remove the coconut pieces from the towel.",
+                            "Take each piece, and wedge a knife between the shell and the white meat of the coconut to carefully separate the two.",
+                            "Then, use the knife (or a vegetable peeler) or remove the fibrous layer that might still be clinging to the outside of the meat."
+                        ],
+                        "coconut": [
+                            "Wrap the mature coconut in a kitchen towel.",
+                            "Place the coconut in the center of the towel, and gather the corners of the towel together to form a pouch.",
+                            "his will keep coconut bits from flying when you go to smash it with a hammer.",
+                            "Use a hammer or mallet to firmly strike all around the coconut.",
+                            "Place the wrapped coconut on a solid surface and hold it in place with one hand.",
+                            "Then, minding your fingers, strike the coconut\u2019s center with a hammer or mallet.",
+                            "Turn the wrapped coconut slightly, and strike the center again.",
+                            "Use as much force as you can safely apply, and repeat until the coconut breaks apart beneath the towel.",
+                            "Alternatively, strike the coconut against a concrete surface.",
+                            "If you don\u2019t have a hammer or mallet, you can use a solid surface like a porch or possibly a concrete countertop.",
+                            "ry to strike the coconut\u2019s equator against the corner of this surface, using it as a makeshift wedge.",
+                            "Repeatedly strike the coconut all around its equator until the coconut breaks apart.",
+                            "Use a knife to separate the meat from the shell.",
+                            "Remove the coconut pieces from the towel.",
+                            "Take each piece, and wedge a knife between the shell and the white meat of the coconut to carefully separate the two.",
+                            "Then, use the knife (or a vegetable peeler) or remove the fibrous layer that might still be clinging to the outside of the meat."
+                        ],
+                        "hammer": [
+                            "This will keep coconut bits from flying when you go to smash it with a hammer.",
+                            "Use a hammer or mallet to firmly strike all around the coconut.",
+                            ". Then, minding your fingers, strike the coconut\u2019s center with a hammer or mallet.",
+                            "Turn the wrapped coconut slightly, and strike the center again.",
+                            "Use as much force as you can safely apply, and repeat until the coconut breaks apart beneath the towel."
+                        ],
+                        "screwdriver": [],
+                        "knife": [
+                            "Take each piece, and wedge a knife between the shell and the white meat of the coconut to carefully separate the two.",
+                            "Then, use the knife (or a vegetable peeler) or remove the fibrous layer that might still be clinging to the outside of the meat.",
+                            "Use a knife to separate the meat from the shell."
+                        ],
+                        "container": [],
+                        "towel": [
+                            "Wrap the mature coconut in a kitchen towel.",
+                            "Place the coconut in the center of the towel, and gather the corners of the towel together to form a pouch.",
+                            "Place the wrapped coconut on a solid surface and hold it in place with one hand.",
+                            "Turn the wrapped coconut slightly, and strike the center again.",
+                            "Remove the coconut pieces from the towel."
+                        ],
+                        "player": [
+                            "Wrap the mature coconut in a kitchen towel.",
+                            "Place the coconut in the center of the towel, and gather the corners of the towel together to form a pouch.",
+                            "This will keep coconut bits from flying when you go to smash it with a hammer.",
+                            "Use a hammer or mallet to firmly strike all around the coconut.",
+                            "Place the wrapped coconut on a solid surface and hold it in place with one hand.",
+                            "Then, minding your fingers, strike the coconut\u2019s center with a hammer or mallet.",
+                            "Turn the wrapped coconut slightly, and strike the center again.",
+                            "Use as much force as you can safely apply, and repeat until the coconut breaks apart beneath the towel.",
+                            "Alternatively, strike the coconut against a concrete surface.",
+                            "If you don\u2019t have a hammer or mallet, you can use a solid surface like a porch or possibly a concrete countertop.",
+                            "Try to strike the coconut\u2019s equator against the corner of this surface, using it as a makeshift wedge.",
+                            "Repeatedly strike the coconut all around its equator until the coconut breaks apart.",
+                            "Use a knife to separate the meat from the shell.",
+                            "Remove the coconut pieces from the towel.",
+                            "Take each piece, and wedge a knife between the shell and the white meat of the coconut to carefully separate the two.",
+                            "Then, use the knife (or a vegetable peeler) or remove the fibrous layer that might still be clinging to the outside of the meat."
+                        ],
+                        "location": [
+                            "If you don\u2019t have a hammer or mallet, you can use a solid surface like a porch or possibly a concrete countertop."
+                        ],
+                        "direction": []
+                    },
+                    "predicates": {
+                        "has_hole": [],
+                        "is_open": [
+                            "Repeatedly strike the coconut all around its equator until the coconut breaks apart.",
+                            "Remove the coconut pieces from the towel."
+                        ],
+                        "has_water": [],
+                        "has_meat": [
+                            "Take each piece, and wedge a knife between the shell and the white meat of the coconut to carefully separate the two.",
+                            "Use a knife to separate the meat from the shell.",
+                            "Then, use the knife (or a vegetable peeler) or remove the fibrous layer that might still be clinging to the outside of the meat."
+                        ],
+                        "heated": [],
+                        "in": [],
+                        "on": [
+                            "Use a hammer or mallet to firmly strike all around the coconut.",
+                            "Place the wrapped coconut on a solid surface and hold it in place with one hand.",
+                            "Then, minding your fingers, strike the coconut\u2019s center with a hammer or mallet."
+                        ],
+                        "ontop": [
+                            "Use a hammer or mallet to firmly strike all around the coconut."
+                        ],
+                        "pressed": [
+                            "Place the wrapped coconut on a solid surface and hold it in place with one hand.",
+                            "Place the coconut in the center of the towel, and gather the corners of the towel together to form a pouch."
+                        ],
+                        "hot": [],
+                        "inventory": [],
+                        "connected": []
+                    },
+                    "actions": {
+                        "move": [],
+                        "get": [],
+                        "drop": [],
+                        "position": [
+                            "Place the coconut in the center of the towel, and gather the corners of the towel together to form a pouch.",
+                            "Use a hammer or mallet to firmly strike all around the coconut."
+                        ],
+                        "remove": [],
+                        "poke": [],
+                        "takeout": [],
+                        "drain": [],
+                        "wrap": [
+                            "Place the coconut in the center of the towel, and gather the corners of the towel together to form a pouch."
+                        ],
+                        "strike": [
+                            "This will keep coconut bits from flying when you go to smash it with a hammer.",
+                            "Use a hammer or mallet to firmly strike all around the coconut.",
+                            "Then, minding your fingers, strike the coconut\u2019s center with a hammer or mallet.",
+                            "Turn the wrapped coconut slightly, and strike the center again."
+                        ],
+                        "smash": [
+                            "Alternatively, strike the coconut against a concrete surface.",
+                            "If you don\u2019t have a hammer or mallet, you can use a solid surface like a porch or possibly a concrete countertop."
+                        ],
+                        "preheat": [],
+                        "bake": [],
+                        "heat": [],
+                        "separatemeat": [
+                            "Use a knife to separate the meat from the shell.",
+                            "Take each piece, and wedge a knife between the shell and the white meat of the coconut to carefully separate the two."
+                        ]
+                    }
+                }
+            },
+            "crack-hot-coconut": {
+                "part_number": "0",
+                "method_number": "3",
+                "step_number": "All",
+                "step_contents": " Preheat the oven to 400 \u00b0F (204 \u00b0C) and bake the coconut for 15-20 minutes. Place the mature coconut on a baking sheet, and monitor it as it bakes (you only want to bake the coconut for as long as it takes to form a crack\u2014baking it for much longer may burn it). After 15 minutes, check for cracks in the coconut. If no cracks have formed, give it another 5 minutes in the oven, or until the coconut has developed fault lines. Alternatively, microwave the coconut on high for 3 minutes. This method is handy when you\u2019re pressed for time, or don\u2019t want to fuss around with an oven. The coconut may not crack, and you may need to exert more force to open it later, but the shell will become weaker and generally easier to penetrate. Remove the coconut and wrap it in a towel to cool. Use oven mitts to retrieve the coconut from the oven or microwave, and allow it to cool for about 5 minutes while wrapped in a towel. Doing this ensures you don\u2019t have hot coconut bits flying everywhere when you go to smash it in the next step. Whack the wrapped coconut with a hammer, or bash it against a hard surface. With the coconut still wrapped in the towel, use a hammer or a mallet to repeatedly and forcefully whack the coconut. Turn the coconut as you hammer it, in order to strike it from multiple angles. Hammer it until you feel it break open beneath the towel. Separate the coconut meat from the shell with a knife. Take each coconut fragment and slip a knife between the shell and the white meat of the coconut to separate the two. Then, use the knife to remove the fibrous layer that might still be clinging to the outside of the meat, in a similar manner to how you\u2019d peel an apple.",
+                "mentions": {
+                    "types": {
+                        "item": [
+                            "Preheat the oven to 400 \u00b0F (204 \u00b0C) and bake the coconut for 15-20 minutes.",
+                            "Place the mature coconut on a baking sheet, and monitor it as it bakes (you only want to bake the coconut for as long as it takes to form a crack\u2014baking it for much longer may burn it).",
+                            "After 15 minutes, check for cracks in the coconut.",
+                            "If no cracks have formed, give it another 5 minutes in the oven, or until the coconut has developed fault lines.",
+                            "Alternatively, microwave the coconut on high for 3 minutes.",
+                            "This method is handy when you\u2019re pressed for time, or don\u2019t want to fuss around with an oven.",
+                            "The coconut may not crack, and you may need to exert more force to open it later, but the shell will become weaker and generally easier to penetrate.",
+                            "Remove the coconut and wrap it in a towel to cool.",
+                            "Use oven mitts to retrieve the coconut from the oven or microwave, and allow it to cool for about 5 minutes while wrapped in a towel.",
+                            "Doing this ensures you don\u2019t have hot coconut bits flying everywhere when you go to smash it in the next step.",
+                            "Whack the wrapped coconut with a hammer, or bash it against a hard surface.",
+                            "With the coconut still wrapped in the towel, use a hammer or a mallet to repeatedly and forcefully whack the coconut.",
+                            "Turn the coconut as you hammer it, in order to strike it from multiple angles.",
+                            "Hammer it until you feel it break open beneath the towel.",
+                            "Separate the coconut meat from the shell with a knife.",
+                            "Take each coconut fragment and slip a knife between the shell and the white meat of the coconut to separate the two.",
+                            "Then, use the knife to remove the fibrous layer that might still be clinging to the outside of the meat, in a similar manner to how you\u2019d peel an apple."
+                        ],
+                        "coconut": [
+                            "Preheat the oven to 400 \u00b0F (204 \u00b0C) and bake the coconut for 15-20 minutes.",
+                            "Place the mature coconut on a baking sheet, and monitor it as it bakes (you only want to bake the coconut for as long as it takes to form a crack\u2014baking it for much longer may burn it).",
+                            "After 15 minutes, check for cracks in the coconut.",
+                            "If no cracks have formed, give it another 5 minutes in the oven, or until the coconut has developed fault lines.",
+                            "Alternatively, microwave the coconut on high for 3 minutes.",
+                            "The coconut may not crack, and you may need to exert more force to open it later, but the shell will become weaker and generally easier to penetrate.",
+                            "Remove the coconut and wrap it in a towel to cool.",
+                            "Use oven mitts to retrieve the coconut from the oven or microwave, and allow it to cool for about 5 minutes while wrapped in a towel.",
+                            "Doing this ensures you don\u2019t have hot coconut bits flying everywhere when you go to smash it in the next step.",
+                            "Whack the wrapped coconut with a hammer, or bash it against a hard surface.",
+                            "With the coconut still wrapped in the towel, use a hammer or a mallet to repeatedly and forcefully whack the coconut.",
+                            "Turn the coconut as you hammer it, in order to strike it from multiple angles.",
+                            "ammer it until you feel it break open beneath the towel.",
+                            "Separate the coconut meat from the shell with a knife.",
+                            "Take each coconut fragment and slip a knife between the shell and the white meat of the coconut to separate the two.",
+                            "Then, use the knife to remove the fibrous layer that might still be clinging to the outside of the meat, in a similar manner to how you\u2019d peel an apple."
+                        ],
+                        "hammer": [
+                            "Whack the wrapped coconut with a hammer, or bash it against a hard surface.",
+                            "With the coconut still wrapped in the towel, use a hammer or a mallet to repeatedly and forcefully whack the coconut.",
+                            "Turn the coconut as you hammer it, in order to strike it from multiple angles.",
+                            "Hammer it until you feel it break open beneath the towel."
+                        ],
+                        "screwdriver": [],
+                        "knife": [
+                            "Separate the coconut meat from the shell with a knife.",
+                            "Take each coconut fragment and slip a knife between the shell and the white meat of the coconut to separate the two.",
+                            "Then, use the knife to remove the fibrous layer that might still be clinging to the outside of the meat, in a similar manner to how you\u2019d peel an apple."
+                        ],
+                        "container": [],
+                        "towel": [
+                            "Remove the coconut and wrap it in a towel to cool.",
+                            "Use oven mitts to retrieve the coconut from the oven or microwave, and allow it to cool for about 5 minutes while wrapped in a towel.",
+                            "Whack the wrapped coconut with a hammer, or bash it against a hard surface.",
+                            "With the coconut still wrapped in the towel, use a hammer or a mallet to repeatedly and forcefully whack the coconut.",
+                            "Hammer it until you feel it break open beneath the towel."
+                        ],
+                        "player": [
+                            "Preheat the oven to 400 \u00b0F (204 \u00b0C) and bake the coconut for 15-20 minutes.",
+                            "Place the mature coconut on a baking sheet, and monitor it as it bakes (you only want to bake the coconut for as long as it takes to form a crack\u2014baking it for much longer may burn it).",
+                            "After 15 minutes, check for cracks in the coconut.",
+                            "If no cracks have formed, give it another 5 minutes in the oven, or until the coconut has developed fault lines.",
+                            "Alternatively, microwave the coconut on high for 3 minutes.",
+                            "This method is handy when you\u2019re pressed for time, or don\u2019t want to fuss around with an oven.",
+                            "The coconut may not crack, and you may need to exert more force to open it later, but the shell will become weaker and generally easier to penetrate.",
+                            "Remove the coconut and wrap it in a towel to cool.",
+                            "Use oven mitts to retrieve the coconut from the oven or microwave, and allow it to cool for about 5 minutes while wrapped in a towel.",
+                            "Doing this ensures you don\u2019t have hot coconut bits flying everywhere when you go to smash it in the next step.",
+                            "Whack the wrapped coconut with a hammer, or bash it against a hard surface.",
+                            "With the coconut still wrapped in the towel, use a hammer or a mallet to repeatedly and forcefully whack the coconut.",
+                            "Turn the coconut as you hammer it, in order to strike it from multiple angles.",
+                            "Hammer it until you feel it break open beneath the towel.",
+                            "Separate the coconut meat from the shell with a knife.",
+                            "Take each coconut fragment and slip a knife between the shell and the white meat of the coconut to separate the two.",
+                            "Then, use the knife to remove the fibrous layer that might still be clinging to the outside of the meat, in a similar manner to how you\u2019d peel an apple."
+                        ],
+                        "location": [
+                            "Preheat the oven to 400 \u00b0F (204 \u00b0C) and bake the coconut for 15-20 minutes.",
+                            "Place the mature coconut on a baking sheet, and monitor it as it bakes (you only want to bake the coconut for as long as it takes to form a crack\u2014baking it for much longer may burn it).",
+                            "Alternatively, microwave the coconut on high for 3 minutes."
+                        ],
+                        "direction": []
+                    },
+                    "predicates": {
+                        "has_hole": [],
+                        "is_open": [
+                            "Hammer it until you feel it break open beneath the towel."
+                        ],
+                        "has_water": [],
+                        "has_meat": [
+                            "Separate the coconut meat from the shell with a knife.",
+                            "Take each coconut fragment and slip a knife between the shell and the white meat of the coconut to separate the two.",
+                            "Then, use the knife to remove the fibrous layer that might still be clinging to the outside of the meat, in a similar manner to how you\u2019d peel an apple."
+                        ],
+                        "heated": [
+                            "Remove the coconut and wrap it in a towel to cool.",
+                            "Use oven mitts to retrieve the coconut from the oven or microwave, and allow it to cool for about 5 minutes while wrapped in a towel."
+                        ],
+                        "in": [],
+                        "on": [
+                            "Remove the coconut and wrap it in a towel to cool.",
+                            "Use oven mitts to retrieve the coconut from the oven or microwave, and allow it to cool for about 5 minutes while wrapped in a towel.",
+                            "Whack the wrapped coconut with a hammer, or bash it against a hard surface.",
+                            "With the coconut still wrapped in the towel, use a hammer or a mallet to repeatedly and forcefully whack the coconut.",
+                            "Turn the coconut as you hammer it, in order to strike it from multiple angles.",
+                            "ammer it until you feel it break open beneath the towel.",
+                            "Separate the coconut meat from the shell with a knife."
+                        ],
+                        "ontop": [],
+                        "pressed": [],
+                        "hot": [
+                            "Preheat the oven to 400 \u00b0F (204 \u00b0C) and bake the coconut for 15-20 minutes."
+                        ],
+                        "inventory": [],
+                        "connected": []
+                    },
+                    "actions": {
+                        "move": [],
+                        "get": [],
+                        "drop": [],
+                        "position": [
+                            "Use oven mitts to retrieve the coconut from the oven or microwave, and allow it to cool for about 5 minutes while wrapped in a towel.",
+                            "Whack the wrapped coconut with a hammer, or bash it against a hard surface.",
+                            "With the coconut still wrapped in the towel, use a hammer or a mallet to repeatedly and forcefully whack the coconut.",
+                            "Turn the coconut as you hammer it, in order to strike it from multiple angles.",
+                            "Hammer it until you feel it break open beneath the towel."
+                        ],
+                        "remove": [],
+                        "poke": [],
+                        "takeout": [],
+                        "drain": [],
+                        "wrap": [
+                            "Use oven mitts to retrieve the coconut from the oven or microwave, and allow it to cool for about 5 minutes while wrapped in a towel.",
+                            "Whack the wrapped coconut with a hammer, or bash it against a hard surface.",
+                            "With the coconut still wrapped in the towel, use a hammer or a mallet to repeatedly and forcefully whack the coconut."
+                        ],
+                        "strike": [
+                            "Whack the wrapped coconut with a hammer, or bash it against a hard surface.",
+                            "With the coconut still wrapped in the towel, use a hammer or a mallet to repeatedly and forcefully whack the coconut.",
+                            "Turn the coconut as you hammer it, in order to strike it from multiple angles.",
+                            "Hammer it until you feel it break open beneath the towel."
+                        ],
+                        "smash": [
+                            "Whack the wrapped coconut with a hammer, or bash it against a hard surface."
+                        ],
+                        "preheat": [
+                            "Preheat the oven to 400 \u00b0F (204 \u00b0C) and bake the coconut for 15-20 minutes."
+                        ],
+                        "bake": [
+                            "Place the mature coconut on a baking sheet, and monitor it as it bakes (you only want to bake the coconut for as long as it takes to form a crack\u2014baking it for much longer may burn it).",
+                            "After 15 minutes, check for cracks in the coconut. If no cracks have formed, give it another 5 minutes in the oven, or until the coconut has developed fault lines."
+                        ],
+                        "heat": [
+                            "Alternatively, microwave the coconut on high for 3 minutes. This method is handy when you\u2019re pressed for time, or don\u2019t want to fuss around with an oven."
+                        ],
+                        "separatemeat": [
+                            "Separate the coconut meat from the shell with a knife.",
+                            "Take each coconut fragment and slip a knife between the shell and the white meat of the coconut to separate the two.",
+                            "Then, use the knife to remove the fibrous layer that might still be clinging to the outside of the meat, in a similar manner to how you\u2019d peel an apple."
+                        ]
+                    }
+                }
+            },
+            "full-open-coconut": {
+                "part_number": "0",
+                "method_number": "combined",
+                "step_number": "all",
+                "step_contents": " Poke a hole in the \u201ceye\u201d of the coconut with a screwdriver and a mallet. Position the pointed end of a screwdriver on one of the 3 holes or \u201ceyes\u201d at the top of the coconut. Then, use a mallet or hammer to carefully but forcefully bore a hole through an eye. Once the screwdriver gives (indicating it\u2019s bored through the shell), remove it by wiggling it out, widening the new hole in the process. Turn the coconut upside down over a glass and allow it to drain. Let the coconut sit for several minutes or until all of the liquid drains out. You may need to shake the coconut a few times to get the last bit of water out of it.\n\nWrap the mature coconut in a kitchen towel. Place the coconut in the center of the towel, and gather the corners of the towel together to form a pouch. This will keep coconut bits from flying when you go to smash it with a hammer. Use a hammer or mallet to firmly strike all around the coconut. Place the wrapped coconut on a solid surface and hold it in place with one hand. Then, minding your fingers, strike the coconut\u2019s center with a hammer or mallet. Turn the wrapped coconut slightly, and strike the center again. Use as much force as you can safely apply, and repeat until the coconut breaks apart beneath the towel. Alternatively, strike the coconut against a concrete surface. If you don\u2019t have a hammer or mallet, you can use a solid surface like a porch or possibly a concrete countertop. Try to strike the coconut\u2019s equator against the corner of this surface, using it as a makeshift wedge. Repeatedly strike the coconut all around its equator until the coconut breaks apart. Use a knife to separate the meat from the shell. Remove the coconut pieces from the towel. Take each piece, and wedge a knife between the shell and the white meat of the coconut to carefully separate the two. Then, use the knife (or a vegetable peeler) or remove the fibrous layer that might still be clinging to the outside of the meat.\n\n Preheat the oven to 400 \u00b0F (204 \u00b0C) and bake the coconut for 15-20 minutes. Place the mature coconut on a baking sheet, and monitor it as it bakes (you only want to bake the coconut for as long as it takes to form a crack\u2014baking it for much longer may burn it). After 15 minutes, check for cracks in the coconut. If no cracks have formed, give it another 5 minutes in the oven, or until the coconut has developed fault lines. Alternatively, microwave the coconut on high for 3 minutes. This method is handy when you\u2019re pressed for time, or don\u2019t want to fuss around with an oven. The coconut may not crack, and you may need to exert more force to open it later, but the shell will become weaker and generally easier to penetrate. Remove the coconut and wrap it in a towel to cool. Use oven mitts to retrieve the coconut from the oven or microwave, and allow it to cool for about 5 minutes while wrapped in a towel. Doing this ensures you don\u2019t have hot coconut bits flying everywhere when you go to smash it in the next step. Whack the wrapped coconut with a hammer, or bash it against a hard surface. With the coconut still wrapped in the towel, use a hammer or a mallet to repeatedly and forcefully whack the coconut. Turn the coconut as you hammer it, in order to strike it from multiple angles. Hammer it until you feel it break open beneath the towel. Separate the coconut meat from the shell with a knife. Take each coconut fragment and slip a knife between the shell and the white meat of the coconut to separate the two. Then, use the knife to remove the fibrous layer that might still be clinging to the outside of the meat, in a similar manner to how you\u2019d peel an apple.",
+                    "mentions": {
+                        "types": {
+                            "item": [
+                                "After 15 minutes, check for cracks in the coconut.",
+                                "Alternatively, microwave the coconut on high for 3 minutes.",
+                                "Alternatively, strike the coconut against a concrete surface.",
+                                "Doing this ensures you don\u2019t have hot coconut bits flying everywhere when you go to smash it in the next step.",
+                                "Hammer it until you feel it break open beneath the towel.",
+                                "If no cracks have formed, give it another 5 minutes in the oven, or until the coconut has developed fault lines.",
+                                "If you don\u2019t have a hammer or mallet, you can use a solid surface like a porch or possibly a concrete countertop.",
+                                "Let the coconut sit for several minutes or until all of the liquid drains out.",
+                                "Once the screwdriver gives (indicating it\u2019s bored through the shell), remove it by wiggling it out, widening the new hole in the process.",
+                                "Place the coconut in the center of the towel, and gather the corners of the towel together to form a pouch.",
+                                "Place the mature coconut on a baking sheet, and monitor it as it bakes (you only want to bake the coconut for as long as it takes to form a crack\u2014baking it for much longer may burn it).",
+                                "Place the wrapped coconut on a solid surface and hold it in place with one hand.",
+                                "Poke a hole in the \u201ceye\u201d of the coconut with a screwdriver and a mallet.",
+                                "Poke a hole in the \u201ceye\u201d of the coconut with a screwdriver and a mallet. \\n Position the pointed end of a screwdriver on one of the 3 holes or \u201ceyes\u201d at the top of the coconut. \\n Then, use a mallet or hammer to carefully but forcefully bore a hole through an eye.  \\n Once the screwdriver gives (indicating it\u2019s bored through the shell), remove it by wiggling it out, widening the new hole in the process. \\n Turn the coconut upside down over a glass and allow it to drain. \\n Let the coconut sit for several minutes or until all of the liquid drains out. \\n You may need to shake the coconut a few times to get the last bit of water out of it.",
+                                "Position the pointed end of a screwdriver on one of the 3 holes or \u201ceyes\u201d at the top of the coconut.",
+                                "Preheat the oven to 400 \u00b0F (204 \u00b0C) and bake the coconut for 15-20 minutes.",
+                                "Remove the coconut and wrap it in a towel to cool.",
+                                "Repeatedly strike the coconut all around its equator until the coconut breaks apart.",
+                                "Separate the coconut meat from the shell with a knife.",
+                                "Take each coconut fragment and slip a knife between the shell and the white meat of the coconut to separate the two.",
+                                "Take each piece, and wedge a knife between the shell and the white meat of the coconut to carefully separate the two.",
+                                "The coconut may not crack, and you may need to exert more force to open it later, but the shell will become weaker and generally easier to penetrate.",
+                                "Then, minding your fingers, strike the coconut\u2019s center with a hammer or mallet.",
+                                "Then, use a mallet or hammer to carefully but forcefully bore a hole through an eye.",
+                                "Then, use the knife (or a vegetable peeler) or remove the fibrous layer that might still be clinging to the outside of the meat.",
+                                "Then, use the knife to remove the fibrous layer that might still be clinging to the outside of the meat, in a similar manner to how you\u2019d peel an apple.",
+                                "This method is handy when you\u2019re pressed for time, or don\u2019t want to fuss around with an oven.",
+                                "This will keep coconut bits from flying when you go to smash it with a hammer.",
+                                "Try to strike the coconut\u2019s equator against the corner of this surface, using it as a makeshift wedge.",
+                                "Turn the coconut as you hammer it, in order to strike it from multiple angles.",
+                                "Turn the coconut upside down over a glass and allow it to drain.",
+                                "Turn the wrapped coconut slightly, and strike the center again.",
+                                "Use a hammer or mallet to firmly strike all around the coconut.",
+                                "Use a knife to separate the meat from the shell. Remove the coconut pieces from the towel.",
+                                "Use as much force as you can safely apply, and repeat until the coconut breaks apart beneath the towel.",
+                                "Use oven mitts to retrieve the coconut from the oven or microwave, and allow it to cool for about 5 minutes while wrapped in a towel.",
+                                "Whack the wrapped coconut with a hammer, or bash it against a hard surface.",
+                                "With the coconut still wrapped in the towel, use a hammer or a mallet to repeatedly and forcefully whack the coconut.",
+                                "Wrap the mature coconut in a kitchen towel.",
+                                "You may need to shake the coconut a few times to get the last bit of water out of it."
+                            ],
+                            "coconut": [
+                                "After 15 minutes, check for cracks in the coconut.",
+                                "Alternatively, microwave the coconut on high for 3 minutes.",
+                                "Alternatively, strike the coconut against a concrete surface.",
+                                "Doing this ensures you don\u2019t have hot coconut bits flying everywhere when you go to smash it in the next step.",
+                                "If no cracks have formed, give it another 5 minutes in the oven, or until the coconut has developed fault lines.",
+                                "If you don\u2019t have a hammer or mallet, you can use a solid surface like a porch or possibly a concrete countertop.",
+                                "Let the coconut sit for several minutes or until all of the liquid drains out.",
+                                "Once the screwdriver gives (indicating it\u2019s bored through the shell), remove it by wiggling it out, widening the new hole in the process.",
+                                "Place the coconut in the center of the towel, and gather the corners of the towel together to form a pouch.",
+                                "Place the mature coconut on a baking sheet, and monitor it as it bakes (you only want to bake the coconut for as long as it takes to form a crack\u2014baking it for much longer may burn it).",
+                                "Place the wrapped coconut on a solid surface and hold it in place with one hand.",
+                                "Poke a hole in the \u201ceye\u201d of the coconut with a screwdriver and a mallet.",
+                                "Position the pointed end of a screwdriver on one of the 3 holes or \u201ceyes\u201d at the top of the coconut.",
+                                "Preheat the oven to 400 \u00b0F (204 \u00b0C) and bake the coconut for 15-20 minutes.",
+                                "Remove the coconut and wrap it in a towel to cool.",
+                                "Remove the coconut pieces from the towel.",
+                                "Repeatedly strike the coconut all around its equator until the coconut breaks apart.",
+                                "Separate the coconut meat from the shell with a knife.",
+                                "Take each coconut fragment and slip a knife between the shell and the white meat of the coconut to separate the two.",
+                                "Take each piece, and wedge a knife between the shell and the white meat of the coconut to carefully separate the two.",
+                                "The coconut may not crack, and you may need to exert more force to open it later, but the shell will become weaker and generally easier to penetrate.",
+                                "Then, minding your fingers, strike the coconut\u2019s center with a hammer or mallet.",
+                                "Then, use a mallet or hammer to carefully but forcefully bore a hole through an eye.",
+                                "Then, use the knife (or a vegetable peeler) or remove the fibrous layer that might still be clinging to the outside of the meat.",
+                                "Then, use the knife to remove the fibrous layer that might still be clinging to the outside of the meat, in a similar manner to how you\u2019d peel an apple.",
+                                "Turn the coconut as you hammer it, in order to strike it from multiple angles.",
+                                "Turn the coconut upside down over a glass and allow it to drain.",
+                                "Turn the wrapped coconut slightly, and strike the center again.",
+                                "Use a hammer or mallet to firmly strike all around the coconut.",
+                                "Use a knife to separate the meat from the shell.",
+                                "Use as much force as you can safely apply, and repeat until the coconut breaks apart beneath the towel.",
+                                "Use oven mitts to retrieve the coconut from the oven or microwave, and allow it to cool for about 5 minutes while wrapped in a towel.",
+                                "Whack the wrapped coconut with a hammer, or bash it against a hard surface.",
+                                "With the coconut still wrapped in the towel, use a hammer or a mallet to repeatedly and forcefully whack the coconut.",
+                                "Wrap the mature coconut in a kitchen towel.",
+                                "You may need to shake the coconut a few times to get the last bit of water out of it.",
+                                "ammer it until you feel it break open beneath the towel.",
+                                "his will keep coconut bits from flying when you go to smash it with a hammer.",
+                                "ry to strike the coconut\u2019s equator against the corner of this surface, using it as a makeshift wedge."
+                            ],
+                            "hammer": [
+                                ". Then, minding your fingers, strike the coconut\u2019s center with a hammer or mallet.",
+                                "Hammer it until you feel it break open beneath the towel.",
+                                "This will keep coconut bits from flying when you go to smash it with a hammer.",
+                                "Turn the coconut as you hammer it, in order to strike it from multiple angles.",
+                                "Turn the wrapped coconut slightly, and strike the center again.",
+                                "Use a hammer or mallet to firmly strike all around the coconut.",
+                                "Use as much force as you can safely apply, and repeat until the coconut breaks apart beneath the towel.",
+                                "Whack the wrapped coconut with a hammer, or bash it against a hard surface.",
+                                "With the coconut still wrapped in the towel, use a hammer or a mallet to repeatedly and forcefully whack the coconut."
+                            ],
+                            "screwdriver": [
+                                "Once the screwdriver gives (indicating it\u2019s bored through the shell), remove it by wiggling it out, widening the new hole in the process.",
+                                "Poke a hole in the \u201ceye\u201d of the coconut with a screwdriver and a mallet.",
+                                "Position the pointed end of a screwdriver on one of the 3 holes or \u201ceyes\u201d at the top of the coconut."
+                            ],
+                            "knife": [
+                                "Separate the coconut meat from the shell with a knife.",
+                                "Take each coconut fragment and slip a knife between the shell and the white meat of the coconut to separate the two.",
+                                "Take each piece, and wedge a knife between the shell and the white meat of the coconut to carefully separate the two.",
+                                "Then, use the knife (or a vegetable peeler) or remove the fibrous layer that might still be clinging to the outside of the meat.",
+                                "Then, use the knife to remove the fibrous layer that might still be clinging to the outside of the meat, in a similar manner to how you\u2019d peel an apple.",
+                                "Use a knife to separate the meat from the shell."
+                            ],
+                            "container": [
+                                "Let the coconut sit for several minutes or until all of the liquid drains out.",
+                                "Turn the coconut upside down over a glass and allow it to drain."
+                            ],
+                            "towel": [
+                                "Hammer it until you feel it break open beneath the towel.",
+                                "Place the coconut in the center of the towel, and gather the corners of the towel together to form a pouch.",
+                                "Place the wrapped coconut on a solid surface and hold it in place with one hand.",
+                                "Remove the coconut and wrap it in a towel to cool.",
+                                "Remove the coconut pieces from the towel.",
+                                "Turn the wrapped coconut slightly, and strike the center again.",
+                                "Use oven mitts to retrieve the coconut from the oven or microwave, and allow it to cool for about 5 minutes while wrapped in a towel.",
+                                "Whack the wrapped coconut with a hammer, or bash it against a hard surface.",
+                                "With the coconut still wrapped in the towel, use a hammer or a mallet to repeatedly and forcefully whack the coconut.",
+                                "Wrap the mature coconut in a kitchen towel."
+                            ],
+                            "player": [
+                                "After 15 minutes, check for cracks in the coconut.",
+                                "Alternatively, microwave the coconut on high for 3 minutes.",
+                                "Alternatively, strike the coconut against a concrete surface.",
+                                "Doing this ensures you don\u2019t have hot coconut bits flying everywhere when you go to smash it in the next step.",
+                                "Hammer it until you feel it break open beneath the towel.",
+                                "If no cracks have formed, give it another 5 minutes in the oven, or until the coconut has developed fault lines.",
+                                "If you don\u2019t have a hammer or mallet, you can use a solid surface like a porch or possibly a concrete countertop.",
+                                "Place the coconut in the center of the towel, and gather the corners of the towel together to form a pouch.",
+                                "Place the mature coconut on a baking sheet, and monitor it as it bakes (you only want to bake the coconut for as long as it takes to form a crack\u2014baking it for much longer may burn it).",
+                                "Place the wrapped coconut on a solid surface and hold it in place with one hand.",
+                                "Preheat the oven to 400 \u00b0F (204 \u00b0C) and bake the coconut for 15-20 minutes.",
+                                "Remove the coconut and wrap it in a towel to cool.",
+                                "Remove the coconut pieces from the towel.",
+                                "Repeatedly strike the coconut all around its equator until the coconut breaks apart.",
+                                "Separate the coconut meat from the shell with a knife.",
+                                "Take each coconut fragment and slip a knife between the shell and the white meat of the coconut to separate the two.",
+                                "Take each piece, and wedge a knife between the shell and the white meat of the coconut to carefully separate the two.",
+                                "The coconut may not crack, and you may need to exert more force to open it later, but the shell will become weaker and generally easier to penetrate.",
+                                "Then, minding your fingers, strike the coconut\u2019s center with a hammer or mallet.",
+                                "Then, use the knife (or a vegetable peeler) or remove the fibrous layer that might still be clinging to the outside of the meat.",
+                                "Then, use the knife to remove the fibrous layer that might still be clinging to the outside of the meat, in a similar manner to how you\u2019d peel an apple.",
+                                "This method is handy when you\u2019re pressed for time, or don\u2019t want to fuss around with an oven.",
+                                "This will keep coconut bits from flying when you go to smash it with a hammer.",
+                                "Try to strike the coconut\u2019s equator against the corner of this surface, using it as a makeshift wedge.",
+                                "Turn the coconut as you hammer it, in order to strike it from multiple angles.",
+                                "Turn the wrapped coconut slightly, and strike the center again.",
+                                "Use a hammer or mallet to firmly strike all around the coconut.",
+                                "Use a knife to separate the meat from the shell.",
+                                "Use as much force as you can safely apply, and repeat until the coconut breaks apart beneath the towel.",
+                                "Use oven mitts to retrieve the coconut from the oven or microwave, and allow it to cool for about 5 minutes while wrapped in a towel.",
+                                "Whack the wrapped coconut with a hammer, or bash it against a hard surface.",
+                                "With the coconut still wrapped in the towel, use a hammer or a mallet to repeatedly and forcefully whack the coconut.",
+                                "Wrap the mature coconut in a kitchen towel."
+                            ],
+                            "location": [
+                                "Alternatively, microwave the coconut on high for 3 minutes.",
+                                "If you don\u2019t have a hammer or mallet, you can use a solid surface like a porch or possibly a concrete countertop.",
+                                "Place the mature coconut on a baking sheet, and monitor it as it bakes (you only want to bake the coconut for as long as it takes to form a crack\u2014baking it for much longer may burn it).",
+                                "Preheat the oven to 400 \u00b0F (204 \u00b0C) and bake the coconut for 15-20 minutes."
+                            ],
+                            "direction": []
+                        },
+                        "predicates": {
+                            "has_hole": [
+                                "Once the screwdriver gives (indicating it\u2019s bored through the shell), remove it by wiggling it out, widening the new hole in the process."
+                            ],
+                            "is_open": [
+                                "Hammer it until you feel it break open beneath the towel.",
+                                "Remove the coconut pieces from the towel.",
+                                "Repeatedly strike the coconut all around its equator until the coconut breaks apart."
+                            ],
+                            "has_water": [
+                                "Turn the coconut upside down over a glass and allow it to drain. Let the coconut sit for several minutes or until all of the liquid drains out.",
+                                "You may need to shake the coconut a few times to get the last bit of water out of it."
+                            ],
+                            "has_meat": [
+                                "Separate the coconut meat from the shell with a knife.",
+                                "Take each coconut fragment and slip a knife between the shell and the white meat of the coconut to separate the two.",
+                                "Take each piece, and wedge a knife between the shell and the white meat of the coconut to carefully separate the two.",
+                                "Then, use the knife (or a vegetable peeler) or remove the fibrous layer that might still be clinging to the outside of the meat.",
+                                "Then, use the knife to remove the fibrous layer that might still be clinging to the outside of the meat, in a similar manner to how you\u2019d peel an apple.",
+                                "Use a knife to separate the meat from the shell."
+                            ],
+                            "heated": [
+                                "Remove the coconut and wrap it in a towel to cool.",
+                                "Use oven mitts to retrieve the coconut from the oven or microwave, and allow it to cool for about 5 minutes while wrapped in a towel."
+                            ],
+                            "in": [
+                                "Once the screwdriver gives (indicating it\u2019s bored through the shell), remove it by wiggling it out, widening the new hole in the process.",
+                                "Then, use a mallet or hammer to carefully but forcefully bore a hole through an eye."
+                            ],
+                            "on": [
+                                "Place the wrapped coconut on a solid surface and hold it in place with one hand.",
+                                "Position the pointed end of a screwdriver on one of the 3 holes or \u201ceyes\u201d at the top of the coconut.",
+                                "Remove the coconut and wrap it in a towel to cool.",
+                                "Separate the coconut meat from the shell with a knife.",
+                                "Then, minding your fingers, strike the coconut\u2019s center with a hammer or mallet.",
+                                "Then, use a mallet or hammer to carefully but forcefully bore a hole through an eye.",
+                                "Turn the coconut as you hammer it, in order to strike it from multiple angles.",
+                                "Turn the coconut upside down over a glass and allow it to drain.",
+                                "Use a hammer or mallet to firmly strike all around the coconut.",
+                                "Use oven mitts to retrieve the coconut from the oven or microwave, and allow it to cool for about 5 minutes while wrapped in a towel.",
+                                "Whack the wrapped coconut with a hammer, or bash it against a hard surface.",
+                                "With the coconut still wrapped in the towel, use a hammer or a mallet to repeatedly and forcefully whack the coconut.",
+                                "ammer it until you feel it break open beneath the towel."
+                            ],
+                            "ontop": [
+                                "Let the coconut sit for several minutes or until all of the liquid drains out.",
+                                "Position the pointed end of a screwdriver on one of the 3 holes or \u201ceyes\u201d at the top of the coconut.",
+                                "Then, use a mallet or hammer to carefully but forcefully bore a hole through an eye.",
+                                "Use a hammer or mallet to firmly strike all around the coconut."
+                            ],
+                            "pressed": [
+                                "Let the coconut sit for several minutes or until all of the liquid drains out.",
+                                "Place the coconut in the center of the towel, and gather the corners of the towel together to form a pouch.",
+                                "Place the wrapped coconut on a solid surface and hold it in place with one hand.",
+                                "Position the pointed end of a screwdriver on one of the 3 holes or \u201ceyes\u201d at the top of the coconut.",
+                                "Then, use a mallet or hammer to carefully but forcefully bore a hole through an eye."
+                            ],
+                            "hot": [
+                                "Preheat the oven to 400 \u00b0F (204 \u00b0C) and bake the coconut for 15-20 minutes."
+                            ],
+                            "inventory": [],
+                            "connected": []
+                        },
+                        "actions": {
+                            "move": [],
+                            "get": [],
+                            "drop": [],
+                            "position": [
+                                "Hammer it until you feel it break open beneath the towel.",
+                                "Place the coconut in the center of the towel, and gather the corners of the towel together to form a pouch.",
+                                "Position the pointed end of a screwdriver on one of the 3 holes or \u201ceyes\u201d at the top of the coconut.",
+                                "Then, use a mallet or hammer to carefully but forcefully bore a hole through an eye.",
+                                "Turn the coconut as you hammer it, in order to strike it from multiple angles.",
+                                "Turn the coconut upside down over a glass and allow it to drain.",
+                                "Use a hammer or mallet to firmly strike all around the coconut.",
+                                "Use oven mitts to retrieve the coconut from the oven or microwave, and allow it to cool for about 5 minutes while wrapped in a towel.",
+                                "Whack the wrapped coconut with a hammer, or bash it against a hard surface.",
+                                "With the coconut still wrapped in the towel, use a hammer or a mallet to repeatedly and forcefully whack the coconut."
+                            ],
+                            "remove": [],
+                            "poke": [
+                                "Poke a hole in the \u201ceye\u201d of the coconut with a screwdriver and a mallet.",
+                                "Then, use a mallet or hammer to carefully but forcefully bore a hole through an eye."
+                            ],
+                            "takeout": [
+                                "Once the screwdriver gives (indicating it\u2019s bored through the shell), remove it by wiggling it out, widening the new hole in the process."
+                            ],
+                            "drain": [
+                                "Turn the coconut upside down over a glass and allow it to drain. Let the coconut sit for several minutes or until all of the liquid drains out.",
+                                "You may need to shake the coconut a few times to get the last bit of water out of it."
+                            ],
+                            "wrap": [
+                                "Place the coconut in the center of the towel, and gather the corners of the towel together to form a pouch.",
+                                "Use oven mitts to retrieve the coconut from the oven or microwave, and allow it to cool for about 5 minutes while wrapped in a towel.",
+                                "Whack the wrapped coconut with a hammer, or bash it against a hard surface.",
+                                "With the coconut still wrapped in the towel, use a hammer or a mallet to repeatedly and forcefully whack the coconut."
+                            ],
+                            "strike": [
+                                "Hammer it until you feel it break open beneath the towel.",
+                                "Then, minding your fingers, strike the coconut\u2019s center with a hammer or mallet.",
+                                "This will keep coconut bits from flying when you go to smash it with a hammer.",
+                                "Turn the coconut as you hammer it, in order to strike it from multiple angles.",
+                                "Turn the wrapped coconut slightly, and strike the center again.",
+                                "Use a hammer or mallet to firmly strike all around the coconut.",
+                                "Whack the wrapped coconut with a hammer, or bash it against a hard surface.",
+                                "With the coconut still wrapped in the towel, use a hammer or a mallet to repeatedly and forcefully whack the coconut."
+                            ],
+                            "smash": [
+                                "Alternatively, strike the coconut against a concrete surface.",
+                                "If you don\u2019t have a hammer or mallet, you can use a solid surface like a porch or possibly a concrete countertop.",
+                                "Whack the wrapped coconut with a hammer, or bash it against a hard surface."
+                            ],
+                            "preheat": [
+                                "Preheat the oven to 400 \u00b0F (204 \u00b0C) and bake the coconut for 15-20 minutes."
+                            ],
+                            "bake": [
+                                "After 15 minutes, check for cracks in the coconut. If no cracks have formed, give it another 5 minutes in the oven, or until the coconut has developed fault lines.",
+                                "Place the mature coconut on a baking sheet, and monitor it as it bakes (you only want to bake the coconut for as long as it takes to form a crack\u2014baking it for much longer may burn it)."
+                            ],
+                            "heat": [
+                                "Alternatively, microwave the coconut on high for 3 minutes. This method is handy when you\u2019re pressed for time, or don\u2019t want to fuss around with an oven."
+                            ],
+                            "separatemeat": [
+                                "Separate the coconut meat from the shell with a knife.",
+                                "Take each coconut fragment and slip a knife between the shell and the white meat of the coconut to separate the two.",
+                                "Take each piece, and wedge a knife between the shell and the white meat of the coconut to carefully separate the two.",
+                                "Then, use the knife to remove the fibrous layer that might still be clinging to the outside of the meat, in a similar manner to how you\u2019d peel an apple.",
+                                "Use a knife to separate the meat from the shell."
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "wikihow_url": "https://www.wikihow.com/Open-a-Coconut",
+        "wikihow_title": "How to Open a Coconut with a Hammer, Oven, or Microwave",
+        "types": [
+            "item",
+            "coconut",
+            "hammer",
+            "screwdriver",
+            "knife",
+            "container",
+            "towel",
+            "player",
+            "location",
+            "direction"
+        ],
+        "actions": [
+            "move",
+            "get",
+            "drop",
+            "position",
+            "remove",
+            "poke",
+            "takeout",
+            "drain",
+            "wrap",
+            "strike",
+            "smash",
+            "preheat",
+            "bake",
+            "heat",
+            "separatemeat"
+        ],
+        "predicates": [
+            "has_hole",
+            "is_open",
+            "has_water",
+            "has_meat",
+            "heated",
+            "in",
+            "on",
+            "ontop",
+            "pressed",
+            "hot",
+            "inventory",
+            "connected"
+        ],
+        "natural_language_descriptions": {
+            "types": {
+                "item": {
+                    "description": "General item"
+                },
+                "coconut": {
+                    "description": "Objective item to operate on"
+                },
+                "hammer": {
+                    "description": "A tool"
+                },
+                "screwdriver": {
+                    "description": "A tool"
+                },
+                "knife": {
+                    "description": "A tool"
+                },
+                "container": {
+                    "description": "A container for liquids"
+                },
+                "towel": {
+                    "description": "A tool"
+                },
+                "player": {
+                    "description": "Player"
+                },
+                "location": {
+                    "description": "Different locations in map"
+                },
+                "direction": {
+                    "description": "Connections between locations"
+                }
+            },
+            "actions": {
+                "move": {
+                    "description": "Move from location A to location B via direction D",
+                    "prerequisites": "Player in location A, locations connected by direction",
+                    "results": "Player in location B"
+                },
+                "get": {
+                    "description": "Get item",
+                    "prerequisites": "Player in same location as item, item not on top or under another item",
+                    "results": "Item in player's inventory"
+                },
+                "drop": {
+                    "description": "Drop item from inventory",
+                    "prerequisites": "Item in player's inventory, player at location",
+                    "results": "Item removed from inventory, placed at location"
+                },
+                "position": {
+                    "description": "Stack item A on item B",
+                    "prerequisites": "Player and items in same location, neither item pressed",
+                    "results": "Item A on item B"
+                },
+                "remove": {
+                    "description": "Unstack item A from item B",
+                    "prerequisites": "Player and items in same location, item A on item B",
+                    "results": "Item A unstacked from item B"
+                },
+                "poke": {
+                    "description": "Poke hole in coconut",
+                    "prerequisites": "All items and player in same location, screwdriver on coconut, hammer on screwdriver, hammer not pressed",
+                    "results": "Screwdriver in coconut"
+                },
+                "takeout": {
+                    "description": "Remove item A from inside item B",
+                    "prerequisites": "Player and items at same location, item A inside item B, item A not pressed",
+                    "results": "Item A removed from item B"
+                },
+                "drain": {
+                    "description": "Drain coconut water into container",
+                    "prerequisites": "Player and items in same location, coconut on container, coconut has hole, coconut has water",
+                    "results": "Coconut has no water, container has water"
+                },
+                "wrap": {
+                    "description": "Wrap towel around coconut",
+                    "prerequisites": "Player and items at same location, towel and coconut not pressed",
+                    "results": "Towel on coconut"
+                },
+                "strike": {
+                    "description": "Hit coconut with hammer",
+                    "prerequisites": "Player and items at same location, hammer on towel, towel on coconut, hammer not pressed",
+                    "results": "Coconut open"
+                },
+                "smash": {
+                    "description": "Smash coconut on ground",
+                    "prerequisites": "Player and coconut at ground location, coconut not open, coconut has no water, coconut not pressed nor on top of another item",
+                    "results": "Coconut is open"
+                },
+                "preheat": {
+                    "description": "Preheat oven",
+                    "prerequisites": "Player at oven, oven is not hot",
+                    "results": "Oven is hot"
+                },
+                "bake": {
+                    "description": "Bake coconut in oven",
+                    "prerequisites": "Player at oven, coconut in inventory, oven is hot",
+                    "results": "Coconut is heated, oven is not hot"
+                },
+                "heat": {
+                    "description": "Heat coconut in microwave",
+                    "prerequisites": "Player at microwave, coconut in inventory",
+                    "results": "Coconut heated"
+                },
+                "separatemeat": {
+                    "description": "Extract meat from coconut",
+                    "prerequisites": "Player and items at same location, knife on coconut, coconut is open, coconut has meat, knife not pressed",
+                    "results": "Coconut has no meat, meat at location"
+                }
+            },
+            "predicates": {
+                "has_hole": {
+                    "description": "Coconut has a hole"
+                },
+                "is_open": {
+                    "description": "Coconut is open"
+                },
+                "has_water": {
+                    "description": "Item has water inside"
+                },
+                "has_meat": {
+                    "description": "Coconut has meat inside"
+                },
+                "heated": {
+                    "description": "Coconut has been heated"
+                },
+                "in": {
+                    "description": "Item A is inside item B"
+                },
+                "on": {
+                    "description": "Item A is on item B"
+                },
+                "ontop": {
+                    "description": "Item is on top of another item"
+                },
+                "pressed": {
+                    "description": "Item is under another item"
+                },
+                "hot": {
+                    "description": "Oven is hot"
+                },
+                "inventory": {
+                    "description": "Item is in player's inventory"
+                },
+                "connected": {
+                    "description": "Location A is connected to location B via direction"
+                }
+            }
+        },
+    "permissions": {
+        "agreed_to_CC-BY": "",
+        "name": "no",
+        "problems": {}
+    }
+}

@@ -135,7 +135,7 @@
 -
   date: 2025-05-06
   title: Attention and Language Modeling
-  slides:
+  slides: attention_language_modeling.pdf
   readings:
         -
           title: Attention is All You Need
@@ -149,3 +149,37 @@
           title: Language Models are Few Shot Learners
           url: https://arxiv.org/abs/2005.14165
           authors: Brown et al.
+-
+  date: 2025-05-08
+  title: RL for Language Agents Pt 1 (Online RL for NLP, RLHF)
+  slides: 
+  readings:
+        -
+          title: RL Book Chapter 13
+          url: http://incompleteideas.net/book/RLbook2020.pdf
+          authors: Rich Sutton and Andrew Barto
+        -
+          title: Is Reinforcement Learning (Not) for Natural Language Processing? Benchmarks, Baselines, and Building Blocks for Natural Language Policy Optimization
+          url: https://github.com/allenai/RL4LMs
+          authors: Ramamurthy*, Ammanabrolu* et al.
+        -
+          title: Training Language Models to Follow Instructions with Human Feedback
+          url: https://arxiv.org/abs/2203.02155
+          authors: Ouyang et al.
+-
+  date: 2025-05-13
+  title: RL for Language Agents Pt 2 (Rewards and Closed Form Methods)
+  slides:
+  readings:
+        -
+          title: Let's Verify Step by Step
+          url: https://arxiv.org/abs/2305.20050
+          authors: Lightman et al.     
+        -
+          title: Fine-Grained Human Feedback Gives Better Rewards for Language Model Training
+          url: https://arxiv.org/abs/2306.01693
+          authors: Wu et al.
+        -
+          title: Direct Preference Optimization Your Language Model is Secretly a Reward Model
+          url: https://arxiv.org/abs/2305.18290
+          authors: Rafailov et al.

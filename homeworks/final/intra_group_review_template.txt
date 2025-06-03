@@ -51,6 +51,6 @@ Explanation:
 Now give yourself a score based on the same criteria and write down exactly what you personally contributed to this project. This will be used to calibrate your peer’s scores.
 
 # Myself
-Nmae:
+Name:
 Email:
 Explanation:

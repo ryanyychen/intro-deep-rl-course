@@ -19,12 +19,11 @@ You may assign any real-valued score in the range [0, 2] based on the following 
 1.5 — Minimally acceptable: essential parts are covered with some clarity, but not in much detail.
 1.75 — Strong: feature-complete and well-explained. Negative results are discussed meaningfully, and the presentation is clear.
 2.0 — Exceptional: goes above and beyond in some way—e.g., thorough analysis, innovative methods, or high presentation quality.
-Copy and paste below template. Fill your response and submit this file 'inter_group_review_template.txt' to Gradescope.
 
 
 # Submission Instructions
 
-Copy the template below into your text editor, fill it out, and upload the completed file as inter_group_review_template.txt to Gradescope.
+Copy the template below into your text editor, fill it out, and upload the completed file as `inter_group_review_template.txt` to Gradescope.
 
 ===========================================================
 ===================== COPY BELOW ==========================

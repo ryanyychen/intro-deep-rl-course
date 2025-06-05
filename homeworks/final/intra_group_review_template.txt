@@ -21,31 +21,37 @@ Copy the template below into your text editor, fill it out, and upload the compl
 # Member 1
 Name:
 Email:
+Score:
 Explanation:
 
 # Member 2
 Name:
 Email:
+Score:
 Explanation:
 
 # Member 3
 Name:
 Email:
+Score:
 Explanation:
 
 # Member 4
 Name:
 Email:
+Score:
 Explanation:
 
 # Member 5
 Name:
 Email:
+Score:
 Explanation:
 
 # Member 6
 Name:
 Email:
+Score:
 Explanation:
 
 Now give yourself a score based on the same criteria and write down exactly what you personally contributed to this project. This will be used to calibrate your peer’s scores.
@@ -53,4 +59,5 @@ Now give yourself a score based on the same criteria and write down exactly what
 # Myself
 Name:
 Email:
+Score:
 Explanation:

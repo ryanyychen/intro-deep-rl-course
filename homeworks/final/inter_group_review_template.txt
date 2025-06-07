@@ -27,6 +27,8 @@ To receive your assigned teams, submit this template file with your name, email 
 
 For the final submission, complete your reviews in the template, and upload the completed file as `inter_group_review_template.txt` to Gradescope.
 
+IMPORTANT: Do NOT include any new lines (`\n`) in your response.
+
 ===========================================================
 ===================== COPY BELOW ==========================
 ===========================================================
